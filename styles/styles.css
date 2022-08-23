@@ -3,11 +3,11 @@
     margin: 0;
 }
 body {
-    background-color: white;
+    background-color: #2B3856;
 }
 .sidenav {
-    border-style: none;
-    border-color: grey;
+    border-right-style: ridge;
+    border-color: #D6EEEE;
     height: 98%;
     width: 15%;
     position: fixed;
@@ -38,7 +38,7 @@ body {
 }
 
 .search-box {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 30px;
     width: 92%;
     height: 30px;
