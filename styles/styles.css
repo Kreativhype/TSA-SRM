@@ -1,0 +1,96 @@
+body {
+    background-color: #2B3856;
+}
+.sidenav {
+    border-style: solid;
+    border-color: grey;
+    height: 98%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    background-color: #2B3856;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.sidenav a {
+    padding-top: 200px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 32px 50px 32px;
+    display: block;
+}
+.sidenav a:hover {
+    cursor: pointer;
+    color: #0909FF;
+}
+.settings-sidenav {
+    margin-top: 160px;
+}
+#outputWindow {
+    margin-left: 230px;
+    height: 100%;
+    border-style: none;
+    border-color: grey;
+}
+
+.search-box {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 92%;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+}
+.search-box::placeholder {
+    text-align: center;
+}
+.performance {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    height: 190px;
+}
+.incoming {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 500px;
+    height: 450px;
+}
+.stock {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: -455px;
+    margin-left: 550px;
+    margin-right: 50px;
+    height: 190px;
+}
+.messages {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: 60px;
+    margin-left: 550px;
+    margin-right: 50px;
+    height: 190px;
+}
+.appointments {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 50px;
+    height: 100px;
+}
+h2 {
+    color: grey;
+    margin-left: 20px;
+}
