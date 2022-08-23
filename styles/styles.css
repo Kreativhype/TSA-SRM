@@ -1,8 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-color: #2B3856;
+    background-color: white;
 }
 .sidenav {
-    border-style: solid;
+    border-style: none;
     border-color: grey;
     height: 98%;
     width: 15%;
@@ -21,7 +25,7 @@ body {
 }
 .sidenav a:hover {
     cursor: pointer;
-    color: #0909FF;
+    color: #D6EEEE;
 }
 .settings-sidenav {
     margin-top: 160px;
@@ -40,57 +44,108 @@ body {
     height: 30px;
     border-radius: 15px;
     border-style: none;
+    background-color: #F8F8FF;
+    color: #2B3856;
 }
 .search-box::placeholder {
     text-align: center;
+    color: #2B3856;
 }
 .performance {
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 20px;
+    border-style: none;
     border-color: grey;
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 50px;
     height: 190px;
+    background-color: #F8F8FF;
 }
 .incoming {
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 20px;
+    border-style: none;
     border-color: grey;
     margin-top: 40px;
     margin-left: 30px;
     margin-right: 500px;
     height: 450px;
+    background-color: #F8F8FF;
 }
 .stock {
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 20px;
+    border-style: none;
     border-color: grey;
     margin-top: -455px;
     margin-left: 550px;
     margin-right: 50px;
     height: 190px;
+    background-color: #F8F8FF;
 }
 .messages {
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 20px;
+    border-style: none;
     border-color: grey;
     margin-top: 60px;
     margin-left: 550px;
     margin-right: 50px;
     height: 190px;
+    background-color: #F8F8FF;
 }
 .appointments {
-    border-radius: 10px;
-    border-style: solid;
+    border-radius: 20px;
+    border-style: none;
     border-color: grey;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: 30px;
     margin-right: 50px;
     height: 100px;
+    background-color: #F8F8FF;
 }
 h2 {
-    color: grey;
+    color: #2B3856;
+    margin-top: 10px;
     margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid none;
+    border-collapse: collapse;
+    margin-left: 20px;
+    width: 460px;
+}
+td {
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+tr:hover {
+    background-color: #2B3856;
+    color: white;
+}
+th {
+    font-size: 13px;
+}
+.stock-table {
+    border: 1px solid none;
+    border-collapse: collapse;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.go-to-appointment {
+    margin-left: 20px;
+    text-decoration-line: none;
+    color: blue;
+}
+.go-to-appointment:hover {
+    color: #D6EEEE;
 }
