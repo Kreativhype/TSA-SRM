@@ -149,3 +149,7 @@ th {
 .go-to-appointment:hover {
     color: #D6EEEE;
 }
+
+#outputWindow-pmv {
+    margin-right: 40px;
+}
