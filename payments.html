@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/pmvstyles.css">
     <title>TSA - PMV</title>
 </head>
-<body>
+<body id="pmv-body-container">
     <div id="mySidenav" class="sidenav">
         <a href="/TSA-SRM/index.html">Dash</a>
         <a href="/TSA-SRM/products.html">Products</a>
@@ -17,62 +17,8 @@
         <a href="#">Appt</a>
         <a href="#" class="settings-sidenav">Settings</a>        
     </div>
-    <div id="outputWindow-pmv">
-        <div class="search-top"><input type="text" placeholder="Search...." class="search-box"></div>
-        <div class="entry-pmv-input">
-            <table>
-                <tr>
-                    <th>Select</th>
-                    <th>Date of Payment</th>
-                    <th>Brand Name</th>
-                    <th>Payment Received By</th>
-                    <th>Type of ID</th>
-                    <th>ID No</th>
-                    <th>Payment Type</th>
-                    <th>Reference</th>
-                    <th>Amount</th>
-                    <th>Last Sales Date</th>
-                    <th>Stockist or Wholesale</th>
-                    <th>Account Fee Period</th>
-                </tr>
-                <tr>
-                    <td><input type="checkbox"></td>
-                    <td><input type="date"></td>
-                    <td><input type="text" placeholder="Brand Name"></td>
-                    <td><input type="text" placeholder="Received By"></td>
-                    <td><input type="text" placeholder="Type of ID"></td>
-                    <td><input type="text" placeholder="ID No"></td>
-                    <td><select name="Payment Type" id="paymentType"></select>
-                        <option value="check">Check</option>
-                        <option value="momo">Momo</option>
-                        <option value="cash">Cash</option>
-                        </select>
-                    </td>
-                    <td><input type="text" placeholder="Reference"></td>
-                    <td><input type="text" placeholder="Amount"></td>
-                    <td><input type="date" placeholder="Last Sales Date"></td>
-                    <td><select name="st or ws" id="stws">
-                        <option value="st">ST</option>
-                        <option value="ws">WS</option>
-                        </select></td>
-                    <td><input type="text" placeholder="Account Fee Period"></td>
-                </tr>
-            </table>
-            
-            
-            
-            
-            
-            
-                
-            
-            
-             
-            
-            
-        </div>
-        
+    <div id="input-window">
+        <input type="text" placeholder="search....." name="" id="input-search">
     </div>
-    <script type="module" src="tsa_db_connection.js"></script>
 </body>
 </html>

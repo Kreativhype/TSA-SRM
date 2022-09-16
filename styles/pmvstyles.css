@@ -1,0 +1,14 @@
+.sidenav {
+    display: block;
+}
+#input-search {
+    background-color: aliceblue;
+    color: black;
+    width: 650px;
+    height: 20px;
+    border-radius: 3%;
+    border-style: none;
+}
+::placeholder {
+    text-align: center;
+}
